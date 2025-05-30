@@ -1,4 +1,4 @@
-name: Node build
+ name: Node build
 run-name: Build nodejs app
 on: [push]
 jobs:
@@ -11,10 +11,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
-      - name: Entrar carpeta calculadora
-        run: cd calculadora
       - name: Instalar dependencias
-        run: npm ci
+        run: |
+          cd calculadora
+          npm install
       - name: Compilar
-        run: npm run build
+        run: |
+          cd calculadora
+          npm run build
  
