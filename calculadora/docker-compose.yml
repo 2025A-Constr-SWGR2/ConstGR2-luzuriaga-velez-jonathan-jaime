@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: . # Contexto de nuestro Dockerfile
+      dockerfile: Dockerfile # Nombre de nuestro Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db  # Espera a que el servicio de base de datos esté listo
+    environment:
+      DB_HOST: JLV_COMPOSE_HOST
+      DB_USER: JLV_COMP_USER
+      DB_PASSWORD: JLV_COMP_PASS
+      DB_NAME: JLV_COMP_PASS
+  db:
+    image: postgres:latest
+    container_name: my_postgres_db
+    environment:
+      POSTGRES_USER: JLV_COMP_USER
+      POSTGRES_PASSWORD: JLV_COMP_PASS
+      POSTGRES_DB: JLV_COMP_PASS
+    ports:
+      - "5432:5432" # Exponemos el puerto de PostgreSQL en nuestra maquina local
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persistent data storage
+volumes:
+  postgres_data:
+ 
