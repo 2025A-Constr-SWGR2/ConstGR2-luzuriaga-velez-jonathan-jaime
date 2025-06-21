@@ -2,7 +2,15 @@
 
 Este es un pequeño aplicativo web para convertir divisas que sirve como ejemplo práctico de la aplicación de los principios de "Clean Code" descritos en el repositorio [clean-code-javascript-es](https://github.com/andersontr15/clean-code-javascript-es).
 
-## Principios de Clean Code Aplicados
+## Sobre el programa
+
+### Cómo Ejecutar el Programa  
+
+Dado que este es un proyecto de frontend simple sin dependencias de servidor, la forma de ejecución es:
+
+1. Abrir el archivo `index.html` directamente en un navegador web preferido (como Google Chrome, Firefox, etc.).  
+
+### Principios Aplicados
 
 A continuación se detallan los conceptos aplicados y los archivos donde se pueden observar.
 
