@@ -1,0 +1,12 @@
+{
+  "name": "2025a-swgr2-jjlv-resta",
+  "version": "1.0.0",
+  "description": "Examen de construccion - resta",
+  "license": "ISC",
+  "author": "Jonathan Jaime Luzuriaga Vélez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

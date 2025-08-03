@@ -1,0 +1,12 @@
+{
+  "name": "2025a-swgr2-jdxc-multiplicacion",
+  "version": "1.0.0",
+  "description": "Examen de construccion - multiplicacion",
+  "license": "ISC",
+  "author": "Joel David Ximenez Calderon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
