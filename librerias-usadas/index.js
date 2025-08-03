@@ -3,10 +3,10 @@ const paqueteResta = require('2025a-swgr2-jjlv-resta');
 const paqueteMultiplicacion = require('2025a-swgr2-jdxc-multiplicacion');
 const paqueteDivision = require('2025a-swgr2-jjlv-division');
 
-const resultadoSuma = paqueteSuma.suma(5, 7);
-const resultadoResta = paqueteResta.resta(10, 2);
-const resultadoMultiplicacion = paqueteMultiplicacion.multiplicacion(3, 4);
-const resultadoDivision = paqueteDivision.division(12, 3);
+const resultadoSuma = paqueteSuma.suma(2, 1);
+const resultadoResta = paqueteResta.resta(3, 2);
+const resultadoMultiplicacion = paqueteMultiplicacion.multiplicacion(2, 5);
+const resultadoDivision = paqueteDivision.division(9, 3);
 
 console.log('Resultado de la suma:', resultadoSuma);
 console.log('Resultado de la resta:', resultadoResta);
